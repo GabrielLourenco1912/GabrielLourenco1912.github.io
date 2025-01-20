@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Jogadores </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="img/santos.jpg" alt="Santos">
+    </div>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <ul id="menu">
+        <li> <a class="abas" href="Principal.html"> Principal </a> </li>
+        <li> <a class="abas" href="pgJogadores.html"> Jogadores </a> </li>
+        <li> <a class="abas" href="pgUniformes.html"> Uniformes </a> </li>
+        <li> <a class="abas" href="pgSocio.html"> Sócio </a> </li>
+    </ul>
+    <div id="conteudoJogadores">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Posição</th>
+                    <th>Idade</th>
+                    <th>Nacionalidade</th>
+                </tr>
+                <tr>
+                    <td>João Paulo</td>
+                    <td>GL</td>
+                    <td>29</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Luan Perez</td>
+                    <td>ZG</td>
+                    <td>30</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Gonzalo Escobar</td>
+                    <td>LE</td>
+                    <td>27</td>
+                    <td>ARG</td>
+                </tr>
+                <tr>
+                    <td>Chermont</td>
+                    <td>LD</td>
+                    <td>18</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Diego Pituca</td>
+                    <td>VOL</td>
+                    <td>32</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Giuliano</td>
+                    <td>MEI</td>
+                    <td>34</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Bigode</td>
+                    <td>ATA</td>
+                    <td>37</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>João Basso</td>
+                    <td>ZG</td>
+                    <td>27</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Tomás Rincón</td>
+                    <td>VOL</td>
+                    <td>36</td>
+                    <td>VNZ</td>
+                </tr>
+                <tr>
+                    <td>Pedrinho</td>
+                    <td>PE</td>
+                    <td>24</td>
+                    <td>BR</td>
+                </tr>
+                <tr>
+                    <td>Julio Furch</td>
+                    <td>ATA</td>
+                    <td>35</td>
+                    <td>ARG</td>
+                </tr>
+                <tr>
+                    <td>Wendel</td>
+                    <td>ATA</td>
+                    <td>24</td>
+                    <td>BR</td>
+                </tr>
+
+            </table>
+    </div>
+    <div id="footer">
+        <a href="https://www.instagram.com/santosfc/" target="_blank">
+            <img class="iconsfooter" src="img/instagram.png" alt="insta">
+        </a>
+        <a href="https://www.youtube.com/@santosfc" target="_blank">
+            <img class="iconsfooter" src="img/youtube.png" alt="youtube">
+        </a>
+        <a href="https://twitter.com/SantosFC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img class="iconsfooter" src="img/twitter.png" alt="twitter">
+        </a>
+    </div>
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'flex') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'flex'
+            }
+        }
+    </script>
+</body>
+</html>

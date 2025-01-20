@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Santos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="img/santos.jpg" alt="Santos">
+    </div>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <ul id="menu">
+        <li> <a class="abas" href="Principal.html"> Principal </a> </li>
+        <li> <a class="abas" href="pgJogadores.html"> Jogadores </a> </li>
+        <li> <a class="abas" href="pgUniformes.html"> Uniformes </a> </li>
+        <li> <a class="abas" href="pgSocio.html"> Sócio </a> </li>
+    </ul>
+    <div id="conteudoPrincipal">
+        <div id="mensagem">
+            O BAGUIO É O SANTOS, O RESTO FODA-SE!
+        </div>
+        <div id=foto>
+            <img id="vila" src="img/vila.jpg" alt="vila">
+        </div>
+    </div>
+    <div id="footer">
+        <a href="https://www.instagram.com/santosfc/" target="_blank">
+            <img class="iconsfooter" src="img/instagram.png" alt="insta">
+        </a>
+        <a href="https://www.youtube.com/@santosfc" target="_blank">
+            <img class="iconsfooter" src="img/youtube.png" alt="youtube">
+        </a>
+        <a href="https://twitter.com/SantosFC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img class="iconsfooter" src="img/twitter.png" alt="twitter">
+        </a>
+    </div>
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'flex') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'flex'
+            }
+        }
+    </script>
+</body>
+</html>
